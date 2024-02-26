@@ -9,6 +9,7 @@
 
 .navigation__list {
     list-style: none;
+    padding: 0px;
 }
 
 .navigation__item {
