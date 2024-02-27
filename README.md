@@ -1,6 +1,6 @@
 # Adrian Markefka - first site
 
-![Adrian Markefka](https://github.com/am97veb/hompage/blob/main/photo/IMG_2881.JPG)
+![Adrian Markefka](photo/IMG_2881.JPG)
 
 ## Demo
 
