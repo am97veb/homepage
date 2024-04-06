@@ -1,6 +1,5 @@
 # Adrian Markefka - first site
 
-![Adrian Markefka](photo/IMG_2881.JPG)
 ![Animacja strony](gif/animationWebsite.gif)
 
 ## Demo
