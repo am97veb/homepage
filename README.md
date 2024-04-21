@@ -8,8 +8,7 @@ https://am97veb.github.io/hompage/
 
 ## Description
 
-Welcome on my first site. 
+Welcome to my first website, which tells briefly something about me: where I come from, where I studied and where I work. You will also find a section dedicated to my interests and my favorite music. The footer contains contact information.
 
-My website short tells about where I'm from, where I appear and where I work. You will also find a section about my interests there and you will learn about my favorite songs. Contact details are in the footer.
+I used Visual Studio Code, Cascading Style Sheet and BEM conventions to create my first site. I used JavaScript to change the background color using a button.
 
-To create my first site I use Visual Studio Code program, CSS and BEM convencion to design this site and Java Script to change background color after using the button.
