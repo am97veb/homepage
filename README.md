@@ -1,4 +1,4 @@
-# Adrian Markefka - first site
+# Adrian Markefka Website
 
 ![Animacja strony](gif/animationWebsite.gif)
 
