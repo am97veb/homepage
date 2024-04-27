@@ -4,7 +4,6 @@
     };
 
     const toggleButton = () => {
-
         const body = document.querySelector(".js-body");
         const sectionHeader = document.querySelector(".js-section__header");
         const tableCaption = document.querySelector(".js-table__caption");
