@@ -1,128 +1,167 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Adrian Markefka website</title>
-    <meta property="og:image" content="photo/share.png">
-    <link rel="icon" href="photo/AM-icon.png">
-    <link href="css/style.css" rel="stylesheet">
-    <link href="css/header.css" rel="stylesheet">
-    <link href="css/navigation.css" rel="stylesheet">
-    <link href="css/section.css" rel="stylesheet">
-    <link href="css/table.css" rel="stylesheet">
-    <link href="css/button.css" rel="stylesheet">
-    <link href="css/footer.css" rel="stylesheet">
+    <meta property="og:image" content="photo/share.png" />
+    <link rel="icon" href="photo/AM-icon.png" />
+    <link href="css/style.css" rel="stylesheet" />
+    <link href="css/header.css" rel="stylesheet" />
+    <link href="css/navigation.css" rel="stylesheet" />
+    <link href="css/section.css" rel="stylesheet" />
+    <link href="css/table.css" rel="stylesheet" />
+    <link href="css/button.css" rel="stylesheet" />
+    <link href="css/footer.css" rel="stylesheet" />
     <script defer src="js/script.js"></script>
 
-    <meta property="og:image" content="photo/share.png">
-    <link rel="icon" href="photo/AM-icon.png">
+    <meta property="og:image" content="photo/share.png" />
+    <link rel="icon" href="photo/AM-icon.png" />
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Lato:ital@0;1&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
-        integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
-</head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital@0;1&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+      integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
 
-<body class="body js-body">
+  <body class="body js-body">
     <header class="header">
-        <h1 class="header__name">Adrian Markefka</h1>
+      <h1 class="header__name">Adrian Markefka</h1>
+      <nav class="navigation">
+        <ul class="navigation__list">
+          <li class="navigation__item"><a href="#O-mnie">O mnie</a></li>
+          <li class="navigation__item">
+            <a href="#zainteresowania">Zainteresowania</a>
+          </li>
+          <li class="navigation__item"><a href="#kontakt">Kontakt</a></li>
+        </ul>
+      </nav>
     </header>
 
-    <nav class="navigation">
-        <ul class="navigation__list">
-            <li><a class="navigation__item" href="#O-mnie">O mnie</a></li>
-            <li><a class="navigation__item" href="#zainteresowania">Zainteresowania</a></li>
-            <li><a class="navigation__item" href="#kontakt">Kontakt</a></li>
-        </ul>
-    </nav>
-
     <main>
-        <section id="o-mnie">
-            <h2 class="section__header js-section__header">O mnie</h2>
-            <img class="section__image" src="photo/IMG_2881.JPG" alt="zdjęcie profilowe">
-            <p class="section__paragraph">Nazywam się Adrian Markefka i mam 26 lat. Pochodzę ze Świerklańca, a obecnie mieszkam w
-                Piekarach Śląskich (woj. Śląskie). Jestem absolwentem AWF Katowice, gdzie ukończyłem studia licencjckie
-                z
-                Bezpieczeństwa Wewnętrznego i studia magisterskie z Zarządzania. Obecnie pracuję na stanowisku
-                protokolanta
-                sądowego w Sądzie Apelacyjnym w Katowicach. W ostatnim czasie zainteresowałem się
-                tematyką
-                programowania, a po darmowym Livie YouCode zdecydowałem się rozpocząć do kursu Frontend Developera.</p>
-        </section>
+      <section class="section" id="o-mnie">
+        <h2 class="section__header js-section__header">O mnie</h2>
+        <p class="section__paragraph">
+          <img
+            class="section__image"
+            src="photo/IMG_2881.JPG"
+            alt="zdjęcie profilowe"
+          />
+          Nazywam się Adrian Markefka i mam 26 lat. Pochodzę ze Świerklańca, a
+          obecnie mieszkam w Piekarach Śląskich (woj. Śląskie). Jestem
+          absolwentem AWF Katowice, gdzie ukończyłem studia licencjckie z
+          Bezpieczeństwa Wewnętrznego i studia magisterskie z Zarządzania.
+          Obecnie pracuję na stanowisku protokolanta sądowego w Sądzie
+          Apelacyjnym w Katowicach. W ostatnim czasie zainteresowałem się
+          tematyką programowania, a po darmowym Livie YouCode zdecydowałem się
+          rozpocząć do kursu Frontend Developera.
+        </p>
+      </section>
 
-        <section id="zainteresowania">
-            <h2 class="section__header">Zainteresowania</h2>
-            <article class="section__article">
-                <h3>Sport</h3>
-                <p>Jednym z moich zainteresowań jest piłka nożna. Jestem fanem klubu ze stolicy Katalonii - FC
-                    Barcelony, a
-                    także amatorskim zawodnikiem klubu Unia Świerklaniec. Uprawinie sportu daje wiele satysfakcji,
-                    poprawia
-                    kondycje, jest emocjonujące, ale także jest odskocznią od biurowej pracy. W okresie letnim sporo
-                    frajdy
-                    sprawia mi równeż jazda na rolkach, czy pływanie. Jak to mówią: sport to zdrowie.</p>
-            </article>
-            <article class="section__article">
-                <h3>Muzyka</h3>
-                <p>Uwielbiam spędzać wolny czas na słuchaniu ulubionej muzyki z gatunku rocka, hardrocka i metalu.
-                    Sczególnymi zespołami są dla mnie Linkin Park, Seether, Three Days Grace, Papa Roach, czy Korn ze
-                    względu na mocne, energiczne i pełne emocji brzmienie, które pobudza do działania.</p>
+      <section id="zainteresowania">
+        <h2 class="section__header">Zainteresowania</h2>
+        <article class="section__article">
+          <h3>Sport</h3>
+          <p>
+            Jednym z moich zainteresowań jest piłka nożna. Jestem fanem klubu ze
+            stolicy Katalonii - FC Barcelony, a także amatorskim zawodnikiem
+            klubu Unia Świerklaniec. Uprawinie sportu daje wiele satysfakcji,
+            poprawia kondycje, jest emocjonujące, ale także jest odskocznią od
+            biurowej pracy. W okresie letnim sporo frajdy sprawia mi równeż
+            jazda na rolkach, czy pływanie. Jak to mówią: sport to zdrowie.
+          </p>
+        </article>
+        <article class="section__article">
+          <h3>Muzyka</h3>
+          <p>
+            Uwielbiam spędzać wolny czas na słuchaniu ulubionej muzyki z gatunku
+            rocka, hardrocka i metalu. Sczególnymi zespołami są dla mnie Linkin
+            Park, Seether, Three Days Grace, Papa Roach, czy Korn ze względu na
+            mocne, energiczne i pełne emocji brzmienie, które pobudza do
+            działania.
+          </p>
 
-                <p> Świetnym sposobem na spędzenie czasu są równierz wieczorne seanse z dziewczyną. Ostatnimi
-                    "przerobionym"
-                    tytułami było Strenger Things, a także "Better call Soul". Ostatnio jednak ze względu na inne
-                    obowiązki
-                    brakuje czasu na nowe tytuły.</p>
-            </article>
-        </section>
+          <p>
+            Świetnym sposobem na spędzenie czasu są równierz wieczorne seanse z
+            dziewczyną. Ostatnimi "przerobionym" tytułami było Strenger Things,
+            a także "Better call Soul". Ostatnio jednak ze względu na inne
+            obowiązki brakuje czasu na nowe tytuły.
+          </p>
+        </article>
+      </section>
 
-        <div class="tableContainer">
-            <table class="table">
-                <caption class="table__caption js-table__caption">Ulubione utwory</caption>
-                <tr class="table__row">
-                    <th class="table__cell table__cell--header" scope="col">Tytuł utworu</th>
-                    <th class="table__cell table__cell--header" scope="col">Wykonawca</th>
-                    <th class="table__cell table__cell--header" scope="col">Album</th>
-                </tr>
-                <tr class="table__row">
-                    <th class="table__cell table__cell--header" scope="row">Numb</th>
-                    <td class="table__cell">Linkin Park</td>
-                    <td class="table__cell">Meteora</td>
-                </tr>
-                <tr class="table__row">
-                    <th class="table__cell table__cell--header" scope="row">Driven Under</th>
-                    <td class="table__cell">Seether</td>
-                    <td class="table__cell">Disclaimer</td>
-                </tr>
-                <tr class="table__row">
-                    <th class="table__cell table__cell--header" scope="row">What I've done</th>
-                    <td class="table__cell" rowspan="2">Linkn Park</td>
-                    <td class="table__cell">Minutes to Midnight</td>
-                </tr>
-                <tr class="table__row">
-                    <th class="table__cell table__cell--header" scope="row">In the End</th>
-                    <td class="table__cell">Hybrid Theory</td>
-                </tr>
-                <tr class="table__row">
-                    <th class="table__cell table__cell--header" scope="row">Black is the Soul</th>
-                    <td class="table__cell">Korn</td>
-                    <td class="table__cell">The Serenity of Suffering</td>
-                </tr>
-            </table>
-        </div>
+      <div class="tableContainer">
+        <table class="table">
+          <caption class="table__caption js-table__caption">
+            Ulubione utwory
+          </caption>
+          <tr class="table__row">
+            <th class="table__cell table__cell--header" scope="col">
+              Tytuł utworu
+            </th>
+            <th class="table__cell table__cell--header" scope="col">
+              Wykonawca
+            </th>
+            <th class="table__cell table__cell--header" scope="col">Album</th>
+          </tr>
+          <tr class="table__row">
+            <th class="table__cell table__cell--header" scope="row">Numb</th>
+            <td class="table__cell">Linkin Park</td>
+            <td class="table__cell">Meteora</td>
+          </tr>
+          <tr class="table__row">
+            <th class="table__cell table__cell--header" scope="row">
+              Driven Under
+            </th>
+            <td class="table__cell">Seether</td>
+            <td class="table__cell">Disclaimer</td>
+          </tr>
+          <tr class="table__row">
+            <th class="table__cell table__cell--header" scope="row">
+              What I've done
+            </th>
+            <td class="table__cell" rowspan="2">Linkn Park</td>
+            <td class="table__cell">Minutes to Midnight</td>
+          </tr>
+          <tr class="table__row">
+            <th class="table__cell table__cell--header" scope="row">
+              In the End
+            </th>
+            <td class="table__cell">Hybrid Theory</td>
+          </tr>
+          <tr class="table__row">
+            <th class="table__cell table__cell--header" scope="row">
+              Black is the Soul
+            </th>
+            <td class="table__cell">Korn</td>
+            <td class="table__cell">The Serenity of Suffering</td>
+          </tr>
+        </table>
+      </div>
 
-        <button class="button js-button">Zmień tło na <span class="button__name js-button__name">jasne</span></button>
+      <button class="button js-button">
+        Zmień tło na <span class="button__name js-button__name">jasne</span>
+      </button>
     </main>
     <footer class="footer" id="kontakt">
-        <h2 class="footer__header js-footer__header">Kontakt</h2>
-        <div class="footer__contact">
-            <a class="footer__link" href="tel:+48.782287410">telefon: 782 287 410</a>
-            <a class="footer__link" href="mailto:am97veb@gmail.com">mail: am97veb@gmail.com</a>
-        </div>
+      <h2 class="footer__header js-footer__header">Kontakt</h2>
+      <div class="footer__contact">
+        <a class="footer__link" href="tel:+48.782287410"
+          >telefon: 782 287 410</a
+        >
+        <a class="footer__link" href="mailto:am97veb@gmail.com"
+          >mail: am97veb@gmail.com</a
+        >
+      </div>
     </footer>
-</body>
-
+  </body>
 </html>
