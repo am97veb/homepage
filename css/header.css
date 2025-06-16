@@ -1,6 +1,6 @@
 .header {
-    display: flex;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: 1fr auto auto;
     align-items: center;
     background-color: rgb(187, 185, 185);
     border-radius: 20px;
@@ -15,4 +15,6 @@
     color: black;
     text-align: center;
     margin: 0;
+    display: flex;
+    justify-content: flex-start;
 }
