@@ -1,5 +1,5 @@
 html {
-    box-sizing: border-box;  
+    box-sizing: border-box;
 }
 
 *, ::after, ::before {
@@ -12,12 +12,36 @@ html {
     width: 100%;
     margin: 0 auto;
     font-family: 'lato', sans-serif;
-    color: white;
-    background-color: #032855;
-    
-    
+    color: var(--color-text);
+    background-color: var(--color-background);
+}
+
+@media (max-width: 576px) {
+    .body {
+        padding: 0 10px;
+    }
 }
 
 .body--light {
-    background-color: rgb(255, 255, 255);
+    --color-background: #fdfbe5;
+}
+
+:root {
+    --color-background: #032855;
+    --color-text: #ffffff;
+    --color-text-dark: #000000;
+    --color-border: #888888;
+    --color-article-background: #bbb9b9;
+    --color-footer: #bbb9b9;
+    --color-shadow: #000000;
+    --color-hover: #464646;
+    --color-table-background: #615f5f;
+    --color-table-cell: #af2525;
+    --color-table-row: #aaa9a9;
+    --color-table-row-hover: #3f3939;
+    --font-header: 34px;
+    --font-navigation-item: 24px;
+    --font-section-header: 30px;
+    --font-section-text: 20px;
+    --font-table-mobile: 14px;
 }
