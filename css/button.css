@@ -1,13 +1,25 @@
 .button {
-    background-color: transparent;
-    border: 1px solid rgb(136, 136, 136);
-    border-radius: 50%; 
-    cursor: pointer;
     width: 35px;
     height: 35px;
+    background-color: transparent;
+    border: 1px solid var(--color-border);
+    border-radius: 50%;
+    cursor: pointer;
 }
 
-.button__name {
+@media (max-width: 768px) {
+    .button {
+        width: 30px;
+        height: 30px;
+        order: 2;
+    }
+}
+
+.button:active {
+    transform: scale(0.9);
+}
+
+.button__icon {
     display: flex;
     justify-content: center;
     align-items: center;
