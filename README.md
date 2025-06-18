@@ -10,7 +10,7 @@ Welcome to my first website, which tells briefly something about me: where I com
 
 ## 💻 Demo
 
-Feel free to visit my [Homepage ](https://am97veb.github.io/hompage/)🧐
+Feel free to visit my [Homepage ](https://am97veb.github.io/homepage/)🧐
 
 ## ⚙ Technologies
 
