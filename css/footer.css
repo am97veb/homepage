@@ -5,20 +5,49 @@
 }
 
 .footer__header--dark {
-    color: black;
+    color: var(--color-text-dark);
 }
 
 .footer__contact {
-    background-color: rgb(187, 185, 185);
+    display: flex;
+    justify-content: center;
+    background-color: var(--color-footer);
     border-radius: 20px;
     padding: 20px;
     margin-bottom: 40px;
     text-align: center;
-    box-shadow: 0px 6px 5px -2px #000000;
+    box-shadow: 0px 6px 5px -2px var(--color-shadow);
+}
+
+@media (max-width: 576px) {
+    .footer__contact {
+        flex-wrap: wrap;
+        gap: 15px;
+    }
+}
+
+.footer__contact--light {
+    --color-footer: #e4e4e4;
 }
 
 .footer__link {
     text-decoration: none;
-    color: black;
-    padding: 20px;
+    color: var(--color-text-dark);
+    padding: 0 20px;
+    border-right: solid 2px var(--color-border);
+    transition: color 0.5s;
+}
+
+@media (max-width: 576px) {
+    .footer__link {
+        border: none;
+    }
+}
+
+.footer__link:hover {
+    color: var(--color-hover);
+}
+
+.footer__link:last-child {
+    border-right: none;
 }
