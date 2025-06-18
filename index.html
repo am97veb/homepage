@@ -34,44 +34,63 @@
   </head>
 
   <body class="body js-body">
-    <header class="header">
+    <header class="header js-header">
       <h1 class="header__name">Adrian Markefka</h1>
       <nav class="navigation">
         <ul class="navigation__list">
-          <li class="navigation__item"><a href="#O-mnie">O mnie</a></li>
+          <li class="navigation__item"><a href="#O-mnie">O&nbsp;mnie</a></li>
           <li class="navigation__item">
             <a href="#zainteresowania">Zainteresowania</a>
           </li>
           <li class="navigation__item"><a href="#kontakt">Kontakt</a></li>
         </ul>
       </nav>
+      <button class="button js-button">
+        <span class="button__icon js-button__icon">🌞</span>
+      </button>
     </header>
 
     <main>
-      <section class="section" id="O-mnie">
-        <h2 class="section__header js-section__header">O mnie</h2>
-        <p class="section__paragraph">
+      <section>
+        <div class="section__image-container">
           <img
-            class="section__image"
+          class="section__image"
+          src="photo/holidays.jpg"
+          alt="duże zdjęcie z wakacji"
+        />
+        </div>
+      </section>
+      <section id="O-mnie">
+        <h2 class="section__header js-section__header">O mnie</h2>
+        <article class="section__article js-section__article">
+          <img
+            class="section__article-image section__article-image--special"
             src="photo/IMG_2881.JPG"
             alt="zdjęcie profilowe"
           />
-          Nazywam się Adrian Markefka i mam 26 lat. Pochodzę ze Świerklańca, a
-          obecnie mieszkam w Piekarach Śląskich (woj. Śląskie). Jestem
-          absolwentem AWF Katowice, gdzie ukończyłem studia licencjckie z
-          Bezpieczeństwa Wewnętrznego i studia magisterskie z Zarządzania.
-          Obecnie pracuję na stanowisku protokolanta sądowego w Sądzie
-          Apelacyjnym w Katowicach. W ostatnim czasie zainteresowałem się
-          tematyką programowania, a po darmowym Livie YouCode zdecydowałem się
-          rozpocząć do kursu Frontend Developera.
-        </p>
+          <p class="section__paragraph">
+            Nazywam się Adrian Markefka i mam 26 lat. Pochodzę ze Świerklańca, a
+            obecnie mieszkam w Piekarach Śląskich (woj. Śląskie). Jestem
+            absolwentem AWF Katowice, gdzie ukończyłem studia licencjckie z
+            Bezpieczeństwa Wewnętrznego i studia magisterskie z Zarządzania.
+            Obecnie pracuję na stanowisku protokolanta sądowego w Sądzie
+            Apelacyjnym w Katowicach. W ostatnim czasie zainteresowałem się
+            tematyką programowania, a po darmowym Livie YouCode zdecydowałem się
+            rozpocząć do kursu Frontend Developera.
+          </p>
+        </article>
       </section>
 
       <section id="zainteresowania">
-        <h2 class="section__header">Zainteresowania</h2>
-        <article class="section__article">
-          <h3>Sport</h3>
-          <p>
+        <h2 class="section__header js-section__header">Zainteresowania</h2>
+        <article class="section__article js-section__article">
+          <h3 class="section__article-header">Sport</h3>
+          <img
+            class="section__article-image"
+            src="photo/player.jpg"
+            alt="zdjęcie z meczu piłki nożnej"
+          />
+          <p class="section__paragraph">
             Jednym z moich zainteresowań jest piłka nożna. Jestem fanem klubu ze
             stolicy Katalonii - FC Barcelony, a także amatorskim zawodnikiem
             klubu Unia Świerklaniec. Uprawinie sportu daje wiele satysfakcji,
@@ -80,21 +99,33 @@
             jazda na rolkach, czy pływanie. Jak to mówią: sport to zdrowie.
           </p>
         </article>
-        <article class="section__article">
-          <h3>Muzyka</h3>
-          <p>
+        <article class="section__article js-section__article">
+          <h3 class="section__article-header">Filmy i&nbsp;seriale</h3>
+          <img
+            class="section__article-image"
+            src="photo/strangerWallpapper.jpg"
+            alt="plakat serialu Stranger Things"
+          />
+          <p class="section__paragraph">
+            Świetnym sposobem na spędzenie czasu są również wieczorne seanse z
+            dziewczyną. Ostatnimi "przerobionym" tytułami było Strenger Things,
+            a także "Better call Soul". Ostatnio jednak ze względu na inne
+            obowiązki brakuje czasu na nowe tytuły.
+          </p>
+        </article>
+        <article class="section__article js-section__article">
+          <h3 class="section__article-header">Muzyka</h3>
+          <img
+            class="section__article-image"
+            src="photo/linkinpark.jpg"
+            alt="zdjęcie z koncertu Linkin Park"
+          />
+          <p class="section__paragraph">
             Uwielbiam spędzać wolny czas na słuchaniu ulubionej muzyki z gatunku
             rocka, hardrocka i metalu. Sczególnymi zespołami są dla mnie Linkin
             Park, Seether, Three Days Grace, Papa Roach, czy Korn ze względu na
             mocne, energiczne i pełne emocji brzmienie, które pobudza do
             działania.
-          </p>
-
-          <p>
-            Świetnym sposobem na spędzenie czasu są równierz wieczorne seanse z
-            dziewczyną. Ostatnimi "przerobionym" tytułami było Strenger Things,
-            a także "Better call Soul". Ostatnio jednak ze względu na inne
-            obowiązki brakuje czasu na nowe tytuły.
           </p>
         </article>
       </section>
@@ -102,9 +133,10 @@
       <div class="tableContainer">
         <table class="table">
           <caption class="table__caption js-table__caption">
-            Ulubione utwory
+            Moje Top 5:
           </caption>
           <tr class="table__row">
+            <th class="table__cell table__cell--header" scope="col">Nr.</th>
             <th class="table__cell table__cell--header" scope="col">
               Tytuł utworu
             </th>
@@ -114,49 +146,42 @@
             <th class="table__cell table__cell--header" scope="col">Album</th>
           </tr>
           <tr class="table__row">
-            <th class="table__cell table__cell--header" scope="row">Numb</th>
+            <th class="table__cell table__cell--header" scope="row">1.</th>
+            <td class="table__cell">Numb</td>
             <td class="table__cell">Linkin Park</td>
             <td class="table__cell">Meteora</td>
           </tr>
           <tr class="table__row">
-            <th class="table__cell table__cell--header" scope="row">
-              Driven Under
-            </th>
+            <th class="table__cell table__cell--header" scope="row">2.</th>
+            <td class="table__cell">Driven Under</td>
             <td class="table__cell">Seether</td>
             <td class="table__cell">Disclaimer</td>
           </tr>
           <tr class="table__row">
-            <th class="table__cell table__cell--header" scope="row">
-              What I've done
-            </th>
-            <td class="table__cell" rowspan="2">Linkn Park</td>
+            <th class="table__cell table__cell--header" scope="row">3.</th>
+            <td class="table__cell">What I've done</td>
+            <td class="table__cell" rowspan="2">Linkin Park</td>
             <td class="table__cell">Minutes to Midnight</td>
           </tr>
           <tr class="table__row">
-            <th class="table__cell table__cell--header" scope="row">
-              In the End
-            </th>
+            <th class="table__cell table__cell--header" scope="row">4.</th>
+            <td class="table__cell">In the End</td>
             <td class="table__cell">Hybrid Theory</td>
           </tr>
           <tr class="table__row">
-            <th class="table__cell table__cell--header" scope="row">
-              Black is the Soul
-            </th>
+            <th class="table__cell table__cell--header" scope="row">5.</th>
+            <td class="table__cell">Black is the Soul</td>
             <td class="table__cell">Korn</td>
             <td class="table__cell">The Serenity of Suffering</td>
           </tr>
         </table>
       </div>
-
-      <button class="button js-button">
-        Zmień tło na <span class="button__name js-button__name">jasne</span>
-      </button>
     </main>
     <footer class="footer" id="kontakt">
       <h2 class="footer__header js-footer__header">Kontakt</h2>
-      <div class="footer__contact">
+      <div class="footer__contact js-footer__contact">
         <a class="footer__link" href="tel:+48.782287410"
-          >telefon: 782 287 410</a
+          >telefon: +48 782 287 410</a
         >
         <a class="footer__link" href="mailto:am97veb@gmail.com"
           >mail: am97veb@gmail.com</a
